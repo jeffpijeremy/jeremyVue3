@@ -19,7 +19,7 @@ export default {
             name: '1234',
             price : 50,
             quantity : 5,
-            message: 'Hello'
+            message: 123
         }
     },
     methods: {
