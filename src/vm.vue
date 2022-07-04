@@ -7,6 +7,9 @@
         數量 : {{quantity}}
         <p></p>
         總價 : {{subtotal()}}
+        <p></p>
+        <input v-model="message" placeholder="edit me">
+        <p>Message is: {{ message }}</p>
     </div>
 </template>
 <script>
@@ -15,7 +18,8 @@ export default {
         return {
             name: '1234',
             price : 50,
-            quantity : 5
+            quantity : 5,
+            message: 'Hello'
         }
     },
     methods: {
